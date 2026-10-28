@@ -78,8 +78,7 @@ Studied through the authorized Wgel CTF room to build foundational red team thin
 · Linux permissions and privilege boundaries
 · Translating individual weaknesses into broader risk
 · Defensive recommendations and structured reporting
-
-Concept-focused. No flag dumps or exploit walkthroughs — the value is in methodology, not answers.
+https://medium.com/@darkwalkers/wgel-tryhackme-walk-through-22cc9f49fa0e
 
 ---
 
