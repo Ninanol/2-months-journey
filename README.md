@@ -1,30 +1,24 @@
 # 2-months-journey
 
 red-teaming-security-research/
+
  01-wgel-ctf-red-team-concepts/
 https://medium.com/@darkwalkers/wgel-tryhackme-walk-through-22cc9f49fa0e
-├── 02-networking-foundations/
-│   ├── medium-writeup-reference.md
-│   ├── protocol-notes/
-│   │   ├── ip-mac-addressing.md
-│   │   ├── tcp-ip-icmp.md
-│   │   ├── arp-dhcp.md
-│   │   └── subnetting-topologies.md
-│   └── security-applications.md
-│
-├── 03-bluetooth-wireless-rf/
-│   ├── case-studies/
-│   │   ├── CVE-2023-27349-bluez-avrcp.md
-│   │   ├── CVE-2025-27558-fragattacks-mesh.md
-│   │   └── CVE-2024-56605-linux-bluetooth-l2cap.md
-│   ├── case-study-template.md
-│   ├── research-workflow.md
-│   ├── hardening-checklist.md
-│   └── planned-tools/
-│       ├── bluetooth-posture-checker.md
-│       ├── cve-patch-tracker.md
-│       └── rf-threat-model-toolkit.md
-│
+02-networking-foundations/
+ 03-bluetooth-wireless-rf/
+ case-studies/
+ CVE-2023-27349-bluez-avrcp.md
+CVE-2025-27558-fragattacks-mesh.md
+ CVE-2024-56605-linux-bluetooth-l2cap.md
+ case-study-template.md
+ research-workflow.md
+hardening-checklist.md
+
+planned-tools/
+ bluetooth-posture-checker.md
+ cve-patch-tracker.md
+rf-threat-model-toolkit.md
+
 ├── 04-ai-red-teaming/
 │   ├── certification-notes.md
 │   ├── owasp-llm-top10-notes.md
