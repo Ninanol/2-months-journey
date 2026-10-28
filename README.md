@@ -87,9 +87,7 @@ https://medium.com/@darkwalkers/wgel-tryhackme-walk-through-22cc9f49fa0e
 Documented in my Medium write-up: 1-Networking
 
 Covers IP/MAC addressing, TCP/IP & ICMP, LAN topologies, subnetting, ARP, DHCP, routers/switches, and Linux fundamentals — the base layer for reconnaissance, traffic analysis, and vulnerability assessment.
-
-Learning record, not a mastery claim.
-
+https://medium.com/@darkwalkers/1-networking-cf5d02e5e39a?sharedUserId=darkwalkers
 ---
 
 📡 3. Bluetooth, Wireless & RF Vulnerability Research
@@ -113,6 +111,9 @@ Planned projects (not yet built):
 · RF Threat Modeling Toolkit
 
 All testing limited to owned devices, authorized labs, or explicitly permitted environments.
+The session provides an in‑depth exploration of Bluetooth Classic, Bluetooth Low Energy (BLE), and Software Defined Radio (SDR) from a penetration testing perspective. It explains protocol structures, pairing mechanisms, vulnerabilities such as weak or fixed PINs, predictable hopping patterns, insecure profiles, and methods for device discovery even in non‑discoverable mode. Practical attack techniques include PIN brute forcing, LMP denial‑of‑service, headset eavesdropping, BLE service manipulation, replay, fuzzing, and man‑in‑the‑middle using tools like Ubertooth One, Bettercap, Crackle, NRF Connect. The SDR section covers fundamentals, hardware options, spectrum visualization, and real‑world exploits against RF systems including ADS‑B aircraft beacons, pagers, key fobs, and IoT sensors, highlighting both offensive uses and defensive monitoring strategies.
+https://youtu.be/azj-p0CAzCI?si=vY9lxZRtCLzx7Mx1
+https://cyberanalystacademy.org/blog/4-bluetooth-nfc-rfid-threats
 
 ---
 
