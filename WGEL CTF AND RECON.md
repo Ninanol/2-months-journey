@@ -2,10 +2,8 @@ WGEL CTF AND RED TEAMING CONCEPT
 
 ## TryHackMe - Wgel
 
-
-
-URL: https://tryhackme.com <img width="548" height="170" alt="image" src="https://github.com/user-attachments/assets/d8b44284-fe5b-4b4e-a19c-08e8a1052583" />
-
+<a href="https://www.example.com"><img width="548" height="170" alt="image" src="https://github.com/user-attachments/assets/d8b44284-fe5b-4b4e-a19c-08e8a1052583" />
+</a>
 
 ### 📊 Room Walkthrough
 You should deploy the target machine first.
