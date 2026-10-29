@@ -6,7 +6,8 @@ WGEL CTF AND RED TEAMING CONCEPT
 
 ---
 
-![Wgel CTF Banner] https://user-images.githubusercontent.com/20625004/113441363-cf0e7080-93f6-11eb-9aa9-781ca8ab7f76.PNG
+<img width="548" height="170" alt="image" src="https://github.com/user-attachments/assets/d8b44284-fe5b-4b4e-a19c-08e8a1052583" />
+
 
 ### 📊 Room Walkthrough
 You should deploy the target machine first.
