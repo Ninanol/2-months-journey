@@ -1,4 +1,4 @@
-# CTF-Write-up
+WGEL CTF AND RED TEAMING CONCEPT
 
 ## TryHackMe - Wgel
 
@@ -6,7 +6,7 @@
 
 ---
 
-![Wgel CTF Banner](./images/wgel_banner.png)
+![Wgel CTF Banner] https://user-images.githubusercontent.com/20625004/113441363-cf0e7080-93f6-11eb-9aa9-781ca8ab7f76.PNG
 
 ### 📊 Room Walkthrough
 You should deploy the target machine first.
