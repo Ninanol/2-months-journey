@@ -1,0 +1,20 @@
+Wgel CTF (TryHackMe) — Recon & Privilege Escalation Concepts
+
+
+Room: TryHackMe — Wgel CTF,
+
+Walkthrough Summary 
+
+A quick narrative of the attack chain, in my own words, before breaking each phase down conceptually below:
+
+Recon: nmap against the target revealed two open ports — SSH (22) and HTTP (80).
+Web enumeration: directory brute-forcing with gobuster against the web server turned up a /sitemap/ path. Running gobuster again against that path revealed further content pointing toward SSH-related material.
+Credential discovery: an id_rsa private SSH key was sitting in a web-accessible location — downloadable directly. A private key alone isn't enough without a username, so the next step was finding one.
+Username discovery: viewing the page source of the default Apache landing page revealed a username in plain text.
+Initial access: with the key's permissions corrected (SSH refuses to use a key that's too open) and the username in hand, an SSH login using that private key succeeded — a working foothold.
+First flag: found via a straightforward filesystem search once logged in.
+Privilege escalation: running sudo -l (lists what the current user can run as root) showed the user could run a common download utility as root with no password. That utility is a documented GTFOBins entry — meaning it's a known, catalogued way to abuse that specific sudo permission to move data as root.
+Exfiltration technique: rather than reading the root flag directly, the root-run utility was pointed at a local listener, effectively using the sudo permission as a one-way file-transfer channel to pull the root flag off the box.
+Second flag: captured via that transfer.
+
+FURTHER RESOURCES --https://medium.com/@darkwalkers/22cc9f49fa0e
