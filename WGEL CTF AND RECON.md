@@ -26,5 +26,5 @@ Run an aggressive `nmap` scan against the target infrastructure to enumerate ope
 
 ---
 
-### 🔗 Further Resources
-*   [Detailed Medium Writeup Reference by @darkwalkers](https://medium.com)
+### 🔗 Further Resources -see my write up here
+https://medium.com/@darkwalkers/22cc9f49fa0e
