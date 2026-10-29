@@ -53,7 +53,7 @@ https://img.shields.io/badge/Scope-Authorized%20Labs%20Only-green
 
 ---
 
-📍 Focus Areas
+ Focus Areas
 
 Area Stage Output
 TryHackMe Wgel CTF Foundational study Red team concepts, defensive recommendations
@@ -63,7 +63,7 @@ AI Red Teaming Certification milestone Planned evaluation harness
 
 ---
 
-🧭 1. TryHackMe Wgel CTF — Red Teaming Concepts
+ 1. TryHackMe Wgel CTF — Red Teaming Concepts
 
 Studied through the authorized Wgel CTF room to build foundational red team thinking:
 
@@ -76,7 +76,7 @@ https://medium.com/@darkwalkers/wgel-tryhackme-walk-through-22cc9f49fa0e
 
 ---
 
-🌐 2. Networking Foundations
+ 2. Networking Foundations
 
 Documented in my Medium write-up: 1-Networking
 
@@ -84,7 +84,7 @@ Covers IP/MAC addressing, TCP/IP & ICMP, LAN topologies, subnetting, ARP, DHCP, 
 https://medium.com/@darkwalkers/1-networking-cf5d02e5e39a?sharedUserId=darkwalkers
 ---
 
-📡 3. Bluetooth, Wireless & RF Vulnerability Research
+ 3. Bluetooth, Wireless & RF Vulnerability Research
 
 Early-stage research. Direction is honest: build from public advisories and controlled lab work toward repeatable vulnerability research and patch validation.
 
@@ -106,12 +106,13 @@ Planned projects (not yet built):
 
 All testing limited to owned devices, authorized labs, or explicitly permitted environments.
 The session provides an in‑depth exploration of Bluetooth Classic, Bluetooth Low Energy (BLE), and Software Defined Radio (SDR) from a penetration testing perspective. It explains protocol structures, pairing mechanisms, vulnerabilities such as weak or fixed PINs, predictable hopping patterns, insecure profiles, and methods for device discovery even in non‑discoverable mode. Practical attack techniques include PIN brute forcing, LMP denial‑of‑service, headset eavesdropping, BLE service manipulation, replay, fuzzing, and man‑in‑the‑middle using tools like Ubertooth One, Bettercap, Crackle, NRF Connect. The SDR section covers fundamentals, hardware options, spectrum visualization, and real‑world exploits against RF systems including ADS‑B aircraft beacons, pagers, key fobs, and IoT sensors, highlighting both offensive uses and defensive monitoring strategies.
+
 https://youtu.be/azj-p0CAzCI?si=vY9lxZRtCLzx7Mx1
 https://cyberanalystacademy.org/blog/4-bluetooth-nfc-rfid-threats
 
 ---
 
-🤖 4. AI Red Teaming
+ 4. AI Red Teaming
 
 Milestone: Completed a two-hour examination for an AI Red Teaming Leader certification.
 Issuer / verification: to be added when published.
@@ -126,7 +127,7 @@ Aligned with OWASP LLM Top 10 and MITRE ATLAS.
 
 ---
 
-🛡️ Methodology
+ Methodology
 
 1. Define scope & authorization
 2. Verify from authoritative sources (NVD, MITRE, vendor advisories)
@@ -138,7 +139,7 @@ Aligned with OWASP LLM Top 10 and MITRE ATLAS.
 
 ---
 
-🗺️ Roadmap
+ Roadmap
 
 · Done: Wgel CTF concepts · Networking write-up · AI Red Team cert exam
 · Active: Wireless/RF CVE case studies · hardening checklist
@@ -146,13 +147,7 @@ Aligned with OWASP LLM Top 10 and MITRE ATLAS.
 
 ---
 
-⚖️ Ethics
-
-Authorized environments only. No third-party wireless interference. Responsible disclosure before publication. No fabricated results, certifications, or findings — completed, active, and planned work are always labeled.
-
----
-
-📚 Key References
+Key References
 
 · MITRE CVE · NIST NVD
 · NIST SP 800-121 Rev. 2 — Bluetooth Security
