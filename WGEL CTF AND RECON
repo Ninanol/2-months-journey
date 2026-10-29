@@ -17,4 +17,5 @@ Privilege escalation: running sudo -l (lists what the current user can run as ro
 Exfiltration technique: rather than reading the root flag directly, the root-run utility was pointed at a local listener, effectively using the sudo permission as a one-way file-transfer channel to pull the root flag off the box.
 Second flag: captured via that transfer.
 
-FURTHER RESOURCES --https://medium.com/@darkwalkers/22cc9f49fa0e
+FURTHER RESOURCES 
+##### URL: https://medium.com/@darkwalkers/22cc9f49fa0e
