@@ -1,5 +1,4 @@
 
-# Load Windows Runtime Metadata for Bluetooth connectivity
 try {
     $WinMDPath = "$env:SystemRoot\System32\WinMetadata\Windows.Devices.winmd"
     if (Test-Path $WinMDPath) { [void][System.Reflection.Assembly]::LoadFile($WinMDPath) }
@@ -15,7 +14,7 @@ Write-Host "==================================================" -ForegroundColor
 Write-Host "  AIROHA SOC / BLE AUDIO SECURITY AUDIT UTILITY  " -ForegroundColor Green
 Write-Host "==================================================" -ForegroundColor Green
 
-# Hardware Check
+
 $RadioTask = [Windows.Devices.Bluetooth.BluetoothAdapter]::GetDefaultAsync()
 while ($RadioTask.Status -eq 'Started') { Start-Sleep -Milliseconds 50 }
 $Adapter = $RadioTask.GetResults()
@@ -24,7 +23,7 @@ if (-not $Adapter -or -not $Adapter.IsLowEnergySupported) {
     Exit
 }
 
-# Scan Configuration
+
 $Watcher = New-Object Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementWatcher
 $Watcher.ScanningMode = [Windows.Devices.Bluetooth.Advertisement.BluetoothLEScanningMode]::Active
 $DiscoveredDevices = @{}
