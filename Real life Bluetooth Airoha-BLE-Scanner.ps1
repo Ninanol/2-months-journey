@@ -47,7 +47,7 @@ Start-Sleep -Seconds 7
 $Watcher.Stop()
 Unregister-Event -SourceIdentifier $EventToken.Name
 
-# Audit Phase
+
 Write-Host "`n[*] EVALUATING UNPAIRED SERVICE PERMISSIONS..." -ForegroundColor Green
 if ($DiscoveredDevices.Count -eq 0) {
     Write-Host "[-] No broadcasting BLE devices detected in range.`n" -ForegroundColor Green
