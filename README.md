@@ -123,7 +123,7 @@ Planned project — AI Red Teaming Evaluation Harness (design stage)
 Structured test cases · expected-vs-observed behavior · configurable checks · JSON & Markdown reports · regression testing.
 
 Aligned with OWASP LLM Top 10 and MITRE ATLAS.
-<img width="1280" height="1074" alt="image" src="(https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2)" />
+<img width="1280" height="1074" alt="image" src="https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2" />
 
 ---
 
