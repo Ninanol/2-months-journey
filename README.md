@@ -124,6 +124,7 @@ Structured test cases · expected-vs-observed behavior · configurable checks ·
 
 Aligned with OWASP LLM Top 10 and MITRE ATLAS.
 [![Red Team Leaders Certificate]
+!(https://user-images.githubusercontent.com/
 https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2
 
 
