@@ -122,10 +122,9 @@ Studied: prompt injection, sensitive-information exposure, insecure tool use, ag
 Planned project — AI Red Teaming Evaluation Harness (design stage)
 Structured test cases · expected-vs-observed behavior · configurable checks · JSON & Markdown reports · regression testing.
 
-Aligned with OWASP LLM Top 10 and MITRE ATLAS.
+Aligned with OWASP LLM Top 10
+[![Certified LLM Security Professional](images/cllmsp-certificate.png)](https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2)
 
-[!(https://user-images.githubusercontent.com/
-https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2]
 
 
 ---
