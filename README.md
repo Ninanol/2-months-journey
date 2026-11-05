@@ -123,7 +123,13 @@ Planned project — AI Red Teaming Evaluation Harness (design stage)
 Structured test cases · expected-vs-observed behavior · configurable checks · JSON & Markdown reports · regression testing.
 
 Aligned with OWASP LLM Top 10
-[![Certified LLM Security Professional](images/cllmsp-certificate.png)](https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2)
+
+
+
+
+<a href="https://www.readteamleader.com"><img width="548" height="170" alt="image" src="https://github.com/user-attachments/assets/https://courses.redteamleaders.com/exam-completion/15820b5a3d41dca2" />
+</a>
+
 
 
 
